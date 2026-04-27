@@ -42,12 +42,12 @@ namespace Exporting_a_Report_from_Code
                     break;
 
                 case "Word":
-                    report.ExportDocument(StiExportFormat.Word2007, stream);
+                    report.ExportDocument(StiExportFormat.Word, stream);
                     saveFileDialog.DefaultExt = ".docx";
                     break;
 
                 case "Excel":
-                    report.ExportDocument(StiExportFormat.Excel2007, stream);
+                    report.ExportDocument(StiExportFormat.Excel, stream);
                     saveFileDialog.DefaultExt = ".xlsx";
                     break;
 
