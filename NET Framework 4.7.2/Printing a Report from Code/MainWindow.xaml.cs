@@ -19,7 +19,7 @@ namespace Printing_a_Report_from_Code
         {
             // How to Activate
             //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
-            //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
+            //Stimulsoft.Base.StiLicense.LoadFromFile("stimulsoft.key");
             //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
 
             InitializeComponent();
@@ -34,11 +34,11 @@ namespace Printing_a_Report_from_Code
             MessageBox.Show("The print action is complete.", "Print Report");
         }
 
-            // Save to Local Storage
-            /*using (var fileStream = File.Create(@"d:\TwoSimpleLists.pdf"))
-            {
-                stream.Seek(0, SeekOrigin.Begin);
-                stream.CopyTo(fileStream);
-            }*/
+        // Save to Local Storage
+        /*using (var fileStream = File.Create(@"d:\TwoSimpleLists.pdf"))
+        {
+            stream.Seek(0, SeekOrigin.Begin);
+            stream.CopyTo(fileStream);
+        }*/
     }
 }

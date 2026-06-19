@@ -21,7 +21,7 @@ namespace Exporting_a_Report_from_Code
         {
             // How to Activate
             //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
-            //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
+            //Stimulsoft.Base.StiLicense.LoadFromFile("stimulsoft.key");
             //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
 
             InitializeComponent();
@@ -75,7 +75,7 @@ namespace Exporting_a_Report_from_Code
                 }
             }
 
-            if(ExportCompleted)
+            if (ExportCompleted)
             {
                 MessageBox.Show("The export action is complete.", "Export Report");
             }

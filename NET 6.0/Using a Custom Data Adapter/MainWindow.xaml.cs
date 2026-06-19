@@ -18,7 +18,7 @@ namespace Using_a_Custom_Data_Adapter
         {
             // How to Activate
             //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
-            //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
+            //Stimulsoft.Base.StiLicense.LoadFromFile("stimulsoft.key");
             //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
 
             InitializeComponent();
@@ -34,7 +34,7 @@ namespace Using_a_Custom_Data_Adapter
         private void ButtonDesign_Click(object sender, RoutedEventArgs e)
         {
             var report = new StiReport();
-            
+
             //Adding a connection to the report from code
             var database = new CustomPostgreSQLDatabase("CustomData1", "Server=127.0.0.1; Port=5432; Database=myDataBase; User Id=myUsername; Password=myPassword;");
             report.Dictionary.Databases.Add(database);
